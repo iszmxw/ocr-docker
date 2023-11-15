@@ -51,7 +51,7 @@ service dbus start
 ```
 # Win+R 输入
 mstsc
-# 回车 吊起远程连接
+# Enter 回车唤起远程连接
 ```
 
 
