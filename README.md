@@ -4,13 +4,15 @@
 ## 从 docker 运行
 
 ```bash
-# 后台启动
+# 方法 1 后台启动
 docker run -itd --name=ocr --net=host iszmxw/ocr:3.0 bash
 
-# 后台指定端口启动
+# 方法 2 指定端口后台启动
 docker run -itd --name=ocr -p 3389:3389 -p 1224:1224 iszmxw/ocr:3.0 bash
 
-# 拉取过程
+# 二选一
+
+# 启动拉取过程
 Unable to find image 'iszmxw/ocr:3.0' locally
 3.0: Pulling from iszmxw/ocr
 96d54c3075c9: Already exists 
