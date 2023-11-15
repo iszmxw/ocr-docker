@@ -82,6 +82,8 @@ mstsc
 
 ### 浏览器输入 http://ip:1224 可以看到 `OCR` 版本号
 
+<img width="432" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/6e2643aa-348f-43d1-be2b-2444c9a5cc6d">
+
 
 
 
