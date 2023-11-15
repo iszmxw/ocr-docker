@@ -69,7 +69,12 @@ mstsc
 
 ### 打开终端
 
-<img width="1512" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/c35e21e2-c879-4c11-ae92-045634d7fb27">
+```bash
+# 终端中输入如下命令启动
+wine ~/Desktop/Umi-OCR_Rapid_dev_20231114/Umi-OCR.exe
+```
+<img width="1512" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/c0b445e4-0144-4b1d-a242-c7a85a1f0e44">
+
 
 ### 启动 OCR 服务
 
