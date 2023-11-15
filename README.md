@@ -68,18 +68,14 @@ mstsc
 <img width="1512" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/bc0952f9-ee07-4ca5-8e8d-bb51cc56e451">
 
 ### 打开终端
-
-```bash
-# 终端中输入如下命令启动
-wine ~/Desktop/Umi-OCR_Rapid_dev_20231114/Umi-OCR.exe
-```
 <img width="1512" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/c0b445e4-0144-4b1d-a242-c7a85a1f0e44">
 
 
 ### 启动 OCR 服务
 
 ```bash
-
+# 终端中输入如下命令启动
+wine ~/Desktop/Umi-OCR_Rapid_dev_20231114/Umi-OCR.exe
 ```
 
 <img width="1512" alt="image" src="https://github.com/iszmxw/ocr/assets/31272102/11a57a9b-a778-4041-a3ff-e53ff10752b5">
