@@ -19,7 +19,7 @@ Unable to find image 'iszmxw/ocr:3.0' locally
 Digest: sha256:11aeaead7c058b8dbcee138f34729d918ccee2da309c4dc2b50a53225159476c
 Status: Downloaded newer image for iszmxw/ocr:3.0
 60438a50023ef1e86bfd8f6631e95d6d65f43fe49f1a8a7b20b6164ca31c3e15
-# 记住场面的容器id
+# 记住启动后的容器id，上面的那一行
 ```
 
 ## 进入容器
