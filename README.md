@@ -1,4 +1,4 @@
-# ocr
+# 免费 ocr
 一个实用的免费 OCR 服务
 
 ## 从 docker 运行
