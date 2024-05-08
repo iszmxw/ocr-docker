@@ -3,23 +3,27 @@
 
 ## 从 docker 运行
 
+- 版本
+- `iszmxw/ocr:3.0` 这里面只有 `v2.0.0` 版本的
+- `iszmxw/ocr:3.1` 此容器包含 `v2.0.0` 和 `v2.1.1`
+
 ```bash
 # 方法 1 后台启动
-docker run -itd --name=ocr --net=host iszmxw/ocr:3.0 bash
+docker run -itd --name=ocr --net=host iszmxw/ocr:3.1 bash
 
 # 方法 2 指定端口后台启动
-docker run -itd --name=ocr -p 3389:3389 -p 1224:1224 iszmxw/ocr:3.0 bash
+docker run -itd --name=ocr -p 3389:3389 -p 1224:1224 iszmxw/ocr:3.1 bash
 
 # 二选一
 
 # 启动拉取过程
-Unable to find image 'iszmxw/ocr:3.0' locally
-3.0: Pulling from iszmxw/ocr
+Unable to find image 'iszmxw/ocr:3.1' locally
+3.1: Pulling from iszmxw/ocr
 96d54c3075c9: Already exists 
 1db0bfccf166: Already exists 
 4cd5305fa16f: Pull complete 
 Digest: sha256:11aeaead7c058b8dbcee138f34729d918ccee2da309c4dc2b50a53225159476c
-Status: Downloaded newer image for iszmxw/ocr:3.0
+Status: Downloaded newer image for iszmxw/ocr:3.1
 60438a50023ef1e86bfd8f6631e95d6d65f43fe49f1a8a7b20b6164ca31c3e15
 # 记住启动后的容器id，上面的那一行
 ```
